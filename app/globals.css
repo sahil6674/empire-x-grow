@@ -24,3 +24,31 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@keyframes loopAnimation {
+  0% {
+    transform: translateY(110vh);
+    opacity: 0;
+  }
+
+  10%{
+    opacity: 1;
+  }
+  95%{
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateY(5vh);
+    opacity: 0;
+  }
+}
+
+.animation-item {
+  position: absolute;
+
+  
+
+  animation: loopAnimation 12s linear infinite;
+  animation-delay: var(--delay);
+}
