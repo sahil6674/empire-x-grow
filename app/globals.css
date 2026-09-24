@@ -27,7 +27,7 @@ body {
 
 @keyframes loopAnimation {
   0% {
-    transform: translateY(110vh);
+    transform: translateY(90vh);
     opacity: 0;
   }
 
@@ -46,8 +46,6 @@ body {
 
 .animation-item {
   position: absolute;
-
-  
 
   animation: loopAnimation 12s linear infinite;
   animation-delay: var(--delay);
