@@ -50,3 +50,7 @@ body {
   animation: loopAnimation 12s linear infinite;
   animation-delay: var(--delay);
 }
+
+html{
+  scroll-behavior: smooth;
+}

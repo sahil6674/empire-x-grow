@@ -6,7 +6,7 @@ import { ReactNode } from 'react'
 export const SectionAnimation = ({ children } : { children: ReactNode }) => {
   return (
     <motion.section
-        initial = {{ opacity: 0, y: 40 }}
+        initial = {{ opacity: 0, y: 10 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, amount: 0.2 }}
         transition={{
