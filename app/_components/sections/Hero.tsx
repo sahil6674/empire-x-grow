@@ -13,7 +13,7 @@ export const Hero = () => {
           <h1 className='text-6xl leading-16 sm:leading-25 md:text-8xl font-semibold'>We Craft Stories That Dominate<span className='block text-blue-400'>Every Screen.</span></h1>
           <p className='text-lg tracking-wide leading-6 text-gray-400 sm:w-[80%]'>From cinematic video production to bold brand design, social media domination, and seamless web experiences — we build the visual identity of tomorrow&apos;s brands.</p>
           <div className='flex flex-col gap-6 sm:flex-row sm:gap-5'>
-            <BlueButton text='Start a Project ➜' className='' />
+            <BlueButton text='Start a Project ➜' />
             <SimpleButton text='View our Work ➜' />
           </div>
         </div>

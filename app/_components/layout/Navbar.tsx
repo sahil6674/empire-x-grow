@@ -19,9 +19,9 @@ const Navbar = () => {
             <li className='transition duration-300 hover:text-white'><Link href="#home">Home</Link></li>
             <li className='transition duration-300 hover:text-white'><Link href="">About</Link></li>
             <li className='transition duration-300 hover:text-white'><Link href="#services">Services</Link></li>
-            <li className='transition duration-300 hover:text-white'><Link href="">Packages</Link></li>
-            <li className='transition duration-300 hover:text-white'><Link href="">Why Us</Link></li>
-            <li className='transition duration-300 hover:text-white'><Link href="">Contact Us</Link></li>
+            <li className='transition duration-300 hover:text-white'><Link href="#packages">Packages</Link></li>
+            <li className='transition duration-300 hover:text-white'><Link href="#process">Why Us</Link></li>
+            <li className='transition duration-300 hover:text-white'><Link href="#contact">Contact Us</Link></li>
             <li><BlueButton text="Let&apos;s work Together" className="py-1" /></li>
           </ul>
           <button
