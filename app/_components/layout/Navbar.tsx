@@ -17,12 +17,16 @@ const Navbar = () => {
           <Image src="/logo-2.png" alt="Logo" height={100} width={200} />
           <ul className='hidden lg:flex gap-10 items-center text-[15px]'>
             <li className='transition duration-300 hover:text-white'><Link href="#home">Home</Link></li>
-            <li className='transition duration-300 hover:text-white'><Link href="">About</Link></li>
+            <li className='transition duration-300 hover:text-white'><Link href="#about">About</Link></li>
             <li className='transition duration-300 hover:text-white'><Link href="#services">Services</Link></li>
             <li className='transition duration-300 hover:text-white'><Link href="#packages">Packages</Link></li>
             <li className='transition duration-300 hover:text-white'><Link href="#process">Why Us</Link></li>
             <li className='transition duration-300 hover:text-white'><Link href="#contact">Contact Us</Link></li>
-            <li><BlueButton text="Let&apos;s work Together" className="py-1" /></li>
+            <li>
+              <Link href="#contact">
+                <BlueButton text="Let&apos;s work Together" className="py-1" />
+              </Link>
+            </li>
           </ul>
           <button
             onClick={() => setIsOpen(!isOpen)}

@@ -1,5 +1,6 @@
 import { BlueButton } from '../ui/BlueButton'
 import { SimpleButton } from '../ui/SimpleButton'
+import Link from 'next/link'
 
 export const Hero = () => {
   return (
@@ -8,13 +9,17 @@ export const Hero = () => {
         <div className='home-col-1 md:basis-2/3 flex flex-col justify-between sm:justify-evenly sm:py-0'>
           <div className='w-fit flex items-center gap-4 text-gray-400 text-sm bg-white/10 border rounded-2xl border-white/20 py-1.5 px-4'>
             <span className='circle h-2 w-2 rounded-full bg-blue-400 animate-pulse shadow-[0_0_10px_4px_rgba(59,130,246,0.6)]'></span>
-            <p className='uppercase tracking-widest'>India&apos;s Premier Creative Studio</p>
+            <p className='uppercase tracking-widest'>DIGITAL SOLUTIONS FOR YOUR BUSINESS</p>
           </div>
-          <h1 className='text-6xl leading-16 sm:leading-25 md:text-8xl font-semibold'>We Craft Stories That Dominate<span className='block text-blue-400'>Every Screen.</span></h1>
-          <p className='text-lg tracking-wide leading-6 text-gray-400 sm:w-[80%]'>From cinematic video production to bold brand design, social media domination, and seamless web experiences — we build the visual identity of tomorrow&apos;s brands.</p>
+          <h1 className='md:leading-16 text-5xl md:text-6xl font-semibold'>We Turn Your Ideas into Strategy and Your Strategy into <span className='md:text-7xl text-blue-500'>Success.</span></h1>
+          <p className='text-lg tracking-wide leading-6 text-gray-400 sm:w-[80%]'>From video shoots and editing to designing, social media, ads, websites and software, EmpireXGrow gives your business everything it needs to get noticed, get leads and grow, all under one roof.</p>
           <div className='flex flex-col gap-6 sm:flex-row sm:gap-5'>
-            <BlueButton text='Start a Project ➜' />
-            <SimpleButton text='View our Work ➜' />
+            <Link href="#contact">
+              <BlueButton text='Start a Project ➜' />
+            </Link>
+            <Link href="#contact">
+              <SimpleButton text='View our Work ➜' />
+            </Link>
           </div>
         </div>
 
@@ -25,11 +30,11 @@ export const Hero = () => {
 
           <div className='animation-item left-0 inline-block bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl px-6 py-1.5' style={{ "--delay": "-4s" } as React.CSSProperties}>🎨 Graphic Designing</div>
 
-          <div className='animation-item right-10 inline-block bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl px-6 py-1.5 text-center' style={{ "--delay": "-6s" } as React.CSSProperties}>💻 Web Designing</div>
+          <div className='animation-item right-10 inline-block bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl px-6 py-1.5 text-center' style={{ "--delay": "-6s" } as React.CSSProperties}>💻 Website & Software</div>
 
           <div className='animation-item left-0 inline-block bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl px-6 py-1.5 text-center' style={{ "--delay": "-8s" } as React.CSSProperties}>📱 Social Media Handling</div>
 
-          <div className='animation-item right-10 inline-block bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl px-6 py-1.5 text-center' style={{ "--delay": "-10s" } as React.CSSProperties}>📈 Grow Business</div>
+          <div className='animation-item right-10 inline-block bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl px-6 py-1.5 text-center' style={{ "--delay": "-10s" } as React.CSSProperties}>📈 Google & Meta Ads</div>
 
         </div>
       </section>

@@ -44,7 +44,7 @@ const Faq = () => {
     ];
 
     return (
-        <section id="ourProcess" className="bg-black px-5 py-20">
+        <section id="faq" className="scroll-mt-10 bg-black px-5 pt-5 pb-15">
             <div className="mb-10 w-full py-5 text-center">
                 <h6 className="text-md py-5 text-blue-400"><span className="text-lg font-semibold pr-2 text-gray-400">09</span>_____ FAQs </h6>
                 <h1 className="text-5xl font-semibold leading-14">
