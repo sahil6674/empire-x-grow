@@ -1,9 +1,6 @@
-import { BlueButton } from "../ui/BlueButton"
-import { SimpleButton } from "../ui/SimpleButton"
 import { IndianRupee, CircleCheck } from 'lucide-react'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
-import Link from 'next/link'
 import WhatsAppButton from "../ui/WhatsAppButton"
 
 const Packages = () => {
