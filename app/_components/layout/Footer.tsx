@@ -4,11 +4,14 @@ import {
     faInstagram,
     faFacebook,
     faYoutube,
-    faLinkedin
+    faLinkedin,
+    faWhatsapp
 } from "@fortawesome/free-brands-svg-icons";
 
 import Image from 'next/image'
 import Link from 'next/link';
+
+import WhatsAppButton from '../ui/WhatsAppButton'
 
 const Footer = () => {
     return (
@@ -20,17 +23,20 @@ const Footer = () => {
                         <h6 className="pl-1 text-gray-300">India&apos;s premier creative studio for video production, brand design, social media strategy, and web development.</h6>
                         <div className="flex justify-center md:justify-start gap-5 text-2xl">
                             <Link href="https://www.instagram.com/empirexgrow?mdxt=MW8zMW14MDNna2Zxdg%3D%3D&utm_source=qr" target="blank">
-                                <FontAwesomeIcon icon={faInstagram} height={25} className="text-white transition-colors duration-300 hover:text-pink-500 hover:-translate-y-0.5 cursor-pointer" />
+                                <FontAwesomeIcon icon={faInstagram} height={25} className="text-pink-500 transition-colors duration-300 hover:text-white hover:-translate-y-0.5 cursor-pointer" />
+                            </Link>
+                            <Link href="https://www.facebook.com/share/1eYBSjnrhz/?mibextid=wwXIfr" target="blank">
+                                <FontAwesomeIcon icon={faFacebook} height={25} className="text-blue-500 transition-colors duration-300 hover:text-white hover:-translate-y-0.5 cursor-pointer" />
                             </Link>
                             <Link href="" target="blank">
-                                <FontAwesomeIcon icon={faFacebook} height={25} className="text-white transition-colors duration-300 hover:text-blue-500 hover:-translate-y-0.5 cursor-pointer" />
-                            </Link>
-                            <Link href="" target="blank">
-                                <FontAwesomeIcon icon={faYoutube} height={25} className="text-white transition-colors duration-300 hover:text-red-600 hover:-translate-y-0.5 cursor-pointer" />
+                                <FontAwesomeIcon icon={faYoutube} height={25} className="text-red-500 transition-colors duration-300 hover:text-white hover:-translate-y-0.5 cursor-pointer" />
                             </Link>
                             <Link href="https://www.linkedin.com/company/empirexgrow/" target="blank">
-                                <FontAwesomeIcon icon={faLinkedin} height={25} className="text-white transition-colors duration-300 hover:text-blue-500 hover:-translate-y-0.5 cursor-pointer" />
+                                <FontAwesomeIcon icon={faLinkedin} height={25} className="text-blue-400 transition-colors duration-300 hover:text-white hover:-translate-y-0.5 cursor-pointer" />
                             </Link>
+                            <WhatsAppButton>
+                                <FontAwesomeIcon icon={faWhatsapp} height={25} className="text-green-400 transition-colors duration-300 hover:text-white hover:-translate-y-0.5 cursor-pointer" />
+                            </WhatsAppButton>
                         </div>
                     </div>
 
@@ -70,8 +76,8 @@ const Footer = () => {
 
                 </div>
 
-                <hr className="text-gray-600"/>
-                <h6 className="text-sm text-center pt-5 text-gray-400">© 2026 EmpireXGrow. All rights reserved.</h6>
+                <hr className="text-amber-400"/>
+                <h6 className="text-sm text-center pt-5 text-amber-400">© 2026 EmpireXGrow. All rights reserved.</h6>
 
             </footer>
         </>

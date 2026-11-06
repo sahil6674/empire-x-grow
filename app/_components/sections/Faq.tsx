@@ -2,6 +2,9 @@
 
 import { useState } from "react";
 import { Plus } from "lucide-react";
+import WhatsAppButton from '../ui/WhatsAppButton'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 
 const Faq = () => {
     const [openIndex, setOpenIndex] = useState<number | null>(null);
@@ -46,10 +49,10 @@ const Faq = () => {
     return (
         <section id="faq" className="scroll-mt-10 bg-black px-5 pt-5 pb-15">
             <div className="mb-10 w-full py-5 text-center">
-                <h6 className="text-md py-5 text-blue-400"><span className="text-lg font-semibold pr-2 text-gray-400">09</span>_____ FAQs </h6>
+                <h6 className="text-md py-5 text-amber-400"><span className="text-lg font-semibold pr-2">06</span>_____ FAQs </h6>
                 <h1 className="text-5xl font-semibold leading-14">
                     Questions You Might{" "}
-                    <span className="text-blue-400">Already Have</span>
+                    <span className="text-amber-400">Already Have</span>
                 </h1>
             </div>
 
@@ -86,7 +89,7 @@ const Faq = () => {
             </div>
 
             <h6 className="text-center mt-10 mb-5 text-gray-400">Still have questions? We&apos;d love to talk.</h6>
-            <button className="block mx-auto py-2 px-5 rounded-lg font-bold bg-green-400">Chat on WhatsApp</button>
+            <WhatsAppButton className="block w-55 m-auto py-2 text-center rounded-lg font-bold bg-green-500 transition-all duration-600 hover:text-green-600 hover:bg-white"><FontAwesomeIcon icon={faWhatsapp} /> Chat on WhatsApp</WhatsAppButton>
         </section>
     );
 };

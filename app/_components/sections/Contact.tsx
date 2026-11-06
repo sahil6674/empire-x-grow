@@ -39,16 +39,16 @@ export default function Contact() {
     return (
         <section id="contact" className="scroll-mt-10 px-15 pt-10 pb-15">
             <div className="mb-10 w-full py-5 text-center">
-                <h6 className="py-5 text-md text-blue-400">
-                    <span className="pr-2 text-lg font-semibold text-gray-400">
-                        11
+                <h6 className="py-5 text-md text-amber-400">
+                    <span className="pr-2 text-lg font-semibold">
+                        07
                     </span>
                     _____ GET IN TOUCH
                 </h6>
 
                 <h1 className="text-3xl font-semibold leading-tight sm:text-5xl sm:leading-[1.2]">
                     Let&apos;s Make Something{" "}
-                    <span className="text-blue-400">Extraordinary</span>
+                    <span className="text-amber-400">Extraordinary</span>
                 </h1>
             </div>
 
