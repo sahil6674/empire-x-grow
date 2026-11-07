@@ -1,6 +1,6 @@
 import { IndianRupee, CircleCheck } from 'lucide-react'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBuyNLarge, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
+import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import WhatsAppButton from "../ui/WhatsAppButton"
 
 const Packages = () => {
