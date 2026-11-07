@@ -17,8 +17,8 @@ export const Hero = () => {
             <Link href="#contact">
               <BlueButton text='Start a Project ➜' />
             </Link>
-            <Link href="#contact">
-              <SimpleButton text='View our Work ➜' />
+            <Link href="#packages">
+              <SimpleButton text='View Packages ➜' />
             </Link>
           </div>
         </div>
