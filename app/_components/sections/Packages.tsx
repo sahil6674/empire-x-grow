@@ -106,7 +106,7 @@ const Packages = () => {
                             <li><CircleCheck className="inline size-4 -mt-1 mr-1" /> 1 month free support after launch</li>
                         </ul>
                             <WhatsAppButton
-                                message={"Hi EmpireXGrow,\nI want you to make a static website for me which helps me grow my business."}
+                                message={"Hi EmpireXGrow,\nI want a static website for my business."}
                                 className="absolute self-center text-center bottom-5 w-[80%] hover:bg-amber-500 hover:text-black hover:border-amber-500 text-sm font-semibold tracking-wider border border-gray-300 px-5 py-3 rounded-lg transition-all duration-300 cursor-pointer"
                             >
                                 Make a Website
@@ -137,7 +137,7 @@ const Packages = () => {
                             <li><CircleCheck className="inline size-4 -mt-1 mr-1 text-amber-400" /> 2 months free support after launch</li>
                         </ul>
                             <WhatsAppButton
-                                message={"Hi EmpireXGrow,\nI want to know more about this package."}
+                                message={"Hi EmpireXGrow,\nI want to know more about this package. I am open to discussions."}
                                 className="absolute self-center text-center bottom-5 w-[80%] bg-amber-500 text-white rounded-lg px-5 py-3 font-semibold text-md tracking-wide transition-all duration-500 hover:bg-white hover:text-black cursor-pointer"
                             >
                                 Let&apos;s Talk
@@ -167,7 +167,7 @@ const Packages = () => {
                             <li><CircleCheck className="inline size-4 -mt-1 mr-1" /> Free support in working hours</li>
                         </ul>
                         <WhatsAppButton 
-                            message={"Hi EmpireXGrow,\nI want to choose a Custom Package according to my business needs.\nLet's talk."}
+                            message={"Hi EmpireXGrow,\nOur organisation needs this software to manage our school data. We want to digitalize with this SCHOOL MANAGEMENT SYSTEM.\nLet's talk on services."}
                             className="group/child absolute text-center self-center bottom-5 w-[80%] text-sm tracking-wider border border-gray-300 px-5 py-3 rounded-lg transition-all duration-300 font-semibold hover:border-amber-500 hover:bg-amber-500 hover:text-black cursor-pointer"
                         >
                             Buy Now
