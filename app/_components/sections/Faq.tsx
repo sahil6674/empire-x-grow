@@ -17,33 +17,34 @@ const Faq = () => {
         {
             question: "How long does a typical project take?",
             answer:
-                "It depends on the scope. A brand film typically takes 3–4 weeks from shoot to final delivery. Website builds range from 4–8 weeks. Social media management starts within 5 business days of onboarding.",
+                "It depends on the type and size of the work. Reels, posters and other designs usually take a few days. Video shoots, websites and software take longer, depending on the features you need. After understanding your requirements, we share a clear timeline before starting.",
         },
         {
             question: "How much does a project cost?",
             answer:
-                "Project pricing depends on the scope, requirements, and timeline. We discuss your needs first and then provide a clear quote.",
+                "Our social media plans start at ₹15,000 per month, and you can see all packages in the Packages section. For websites, software and custom work, the price depends on the features you need. Tell us your requirements and we will share a clear quote with no hidden charges.",
         },
         {
             question: "Do you work with small businesses?",
             answer:
-                "Yes. We work with businesses of different sizes and can tailor the project according to your requirements.",
+                "Yes. We work with startups, local shops, schools, clinics and growing brands. Our packages are made to be affordable, and we can adjust the work to fit your budget.",
         },
         {
             question: "Can you maintain my website after development?",
             answer:
-                "Yes. We can provide ongoing website maintenance, updates, hosting support, and other technical assistance.",
+                "Yes. Every website and software project includes free support after launch, and we also offer yearly maintenance for updates, fixes and technical help.",
         },
         {
             question: "How do I get started?",
             answer:
-                "Simply contact us and tell us about your project. We will discuss your requirements, timeline, and next steps.",
+                "Simply call or WhatsApp us and tell us about your business and what you need. We will suggest the best plan, share the timeline and price, and start work once you are happy with it.",
         },
         {
             question: "Do you provide custom solutions?",
             answer:
-                "Yes. Our solutions are customized according to your business goals, audience, and project requirements.",
+                "Yes. Along with our packages, we build custom websites and software such as school, college, hospital and shop management systems, designed around how your business works.",
         },
+
     ];
 
     return (
@@ -65,8 +66,8 @@ const Faq = () => {
                     >
                         <Plus
                             className={`absolute top-5 right-5 size-6 rounded-full border border-gray-800 p-1 transition-transform duration-300 ${openIndex === index
-                                    ? "rotate-45 bg-gray-800"
-                                    : "rotate-0"
+                                ? "rotate-45 bg-gray-800"
+                                : "rotate-0"
                                 }`}
                         />
 
@@ -76,11 +77,11 @@ const Faq = () => {
 
                         <div
                             className={`overflow-hidden transition-all duration-300 ease-in-out ${openIndex === index
-                                    ? "max-h-40 opacity-100"
-                                    : "max-h-0 opacity-0"
+                                ? "max-h-40 opacity-100"
+                                : "max-h-0 opacity-0"
                                 }`}
                         >
-                            <h6 className="mt-3 text-sm text-gray-400">
+                            <h6 className="mt-3 text-sm text-gray-300">
                                 {faq.answer}
                             </h6>
                         </div>
