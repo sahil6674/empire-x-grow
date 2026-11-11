@@ -144,7 +144,7 @@ const Packages = () => {
                             </WhatsAppButton>
                     </div>
 
-                    <div className="group relative h-230 flex flex-col gap-5 p-8 border rounded-lg border-gray-500 hover:border-amber-400 hover:-translate-y-1 transition-all duration-300">
+                    <div id='sms' className="scroll-mt-24 group relative h-230 flex flex-col gap-5 p-8 border rounded-lg border-gray-500 hover:border-amber-400 hover:-translate-y-1 transition-all duration-300">
                         <h6 className="text-sm tracking-widest text-gray-400 group-hover:text-white uppercase">School Management System</h6>
                         <h1 className="text-5xl font-bold -ml-1"><IndianRupee className="inline size-10 stroke-3 -mt-2 -mr-1" />2,000<span className="text-sm font-thin text-gray-400">/ month</span></h1>
                         <h6 className=" text-gray-400">Best for Schools, Colleges and Coaching Centres that want to move from registers & Excel to one organized system.</h6>

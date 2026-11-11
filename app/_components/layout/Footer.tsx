@@ -28,7 +28,7 @@ const Footer = () => {
                             <Link href="https://www.facebook.com/share/1eYBSjnrhz/?mibextid=wwXIfr" target="blank">
                                 <FontAwesomeIcon icon={faFacebook} height={25} className="text-blue-500 transition-colors duration-300 hover:text-white hover:-translate-y-0.5 cursor-pointer" />
                             </Link>
-                            <Link href="" target="blank">
+                            <Link href="https://youtube.com/@empirexgrow?si=TVwwiM-qe7zU09fI" target="blank">
                                 <FontAwesomeIcon icon={faYoutube} height={25} className="text-red-500 transition-colors duration-300 hover:text-white hover:-translate-y-0.5 cursor-pointer" />
                             </Link>
                             <Link href="https://www.linkedin.com/company/empirexgrow/" target="blank">
@@ -44,7 +44,7 @@ const Footer = () => {
                         <h5 className="text-md font-semibold uppercase pb-3 text-blue-400">Company</h5>
                         <ul className="flex flex-col gap-2 text-sm font-medium text-gray-400">
                             <li><Link href="#about" className="inline-block transition-all duration-300 hover:text-white hover:-translate-y-0.5">About</Link></li>
-                            <li><Link href="#about" className="inline-block transition-all duration-300 hover:text-white hover:-translate-y-0.5">Our Work</Link></li>
+                            <li><Link href="#process" className="inline-block transition-all duration-300 hover:text-white hover:-translate-y-0.5">Why Us</Link></li>
                             <li><Link href="#about" className="inline-block transition-all duration-300 hover:text-white hover:-translate-y-0.5">Case Studies</Link></li>
                             <li><Link href="#about" className="inline-block transition-all duration-300 hover:text-white hover:-translate-y-0.5">Careers</Link></li>
                         </ul>
@@ -53,14 +53,16 @@ const Footer = () => {
                     <div className="lg:col-span-1">
                         <h5 className="text-md font-semibold uppercase pb-3 text-blue-400">Services</h5>
                         <ul className="flex flex-col gap-2 text-sm font-medium text-gray-400">
-                            <li><Link href="#videoShoot" className="inline-block transition-all duration-300 hover:text-white hover:-translate-y-0.5">Video Production</Link></li>
+                            <li><Link href="#videoShoot" className="inline-block transition-all duration-300 hover:text-white hover:-translate-y-0.5">Cinematic Shoots</Link></li>
                             <li><Link href="#videoShoot" className="inline-block transition-all duration-300 hover:text-white hover:-translate-y-0.5">Video Editing</Link></li>
                             <li><Link href="#videoShoot" className="inline-block transition-all duration-300 hover:text-white hover:-translate-y-0.5">Music Video Production</Link></li>
                             <li><Link href="#videoShoot" className="inline-block transition-all duration-300 hover:text-white hover:-translate-y-0.5">Graphic Design</Link></li>
-                            <li><Link href="#web" className="inline-block transition-all duration-300 hover:text-white hover:-translate-y-0.5">Social Media</Link></li>
-                            <li><Link href="#web" className="inline-block transition-all duration-300 hover:text-white hover:-translate-y-0.5">Web Development</Link></li>
-                            <li><Link href="#web" className="inline-block transition-all duration-300 hover:text-white hover:-translate-y-0.5">Software Development</Link></li>
-                            <li><Link href="#web" className="inline-block transition-all duration-300 hover:text-white hover:-translate-y-0.5">Hosting & Maintenance</Link></li>
+                            <li><Link href="#web" className="inline-block transition-all duration-300 hover:text-white hover:-translate-y-0.5">Social Media Management</Link></li>
+                            <li><Link href="#web" className="inline-block transition-all duration-300 hover:text-white hover:-translate-y-0.5">Google & Meta Ads</Link></li>
+                            <li><Link href="#sms" className="inline-block transition-all duration-300 hover:text-white hover:-translate-y-0.5">Website Development</Link></li>
+                            <li><Link href="#sms" className="inline-block transition-all duration-300 hover:text-white hover:-translate-y-0.5">Software Development</Link></li>
+                            <li><Link href="#sms" className="inline-block transition-all duration-300 hover:text-white hover:-translate-y-0.5">Hosting & Maintenance</Link></li>
+                            <li><Link href="#sms" className="inline-block transition-all duration-300 hover:text-white hover:-translate-y-0.5">School Management System</Link></li>
                         </ul>
                     </div>
 
@@ -70,7 +72,6 @@ const Footer = () => {
                             <li><Link href="#packages" className="inline-block transition-all duration-300 hover:text-white hover:-translate-y-0.5">Packages</Link></li>
                             <li><Link href="#ourProcess" className="inline-block transition-all duration-300 hover:text-white hover:-translate-y-0.5">Process</Link></li>
                             <li><Link href="#faq" className="inline-block transition-all duration-300 hover:text-white hover:-translate-y-0.5">FAQ</Link></li>
-                            <li><Link href="#about" className="inline-block transition-all duration-300 hover:text-white hover:-translate-y-0.5">Blog</Link></li>
                         </ul>
                     </div>
 
