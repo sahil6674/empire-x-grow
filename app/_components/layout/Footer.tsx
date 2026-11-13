@@ -45,8 +45,8 @@ const Footer = () => {
                         <ul className="flex flex-col gap-2 text-sm font-medium text-gray-400">
                             <li><Link href="#about" className="inline-block transition-all duration-300 hover:text-white hover:-translate-y-0.5">About</Link></li>
                             <li><Link href="#process" className="inline-block transition-all duration-300 hover:text-white hover:-translate-y-0.5">Why Us</Link></li>
-                            <li><Link href="#about" className="inline-block transition-all duration-300 hover:text-white hover:-translate-y-0.5">Case Studies</Link></li>
-                            <li><Link href="#about" className="inline-block transition-all duration-300 hover:text-white hover:-translate-y-0.5">Careers</Link></li>
+                            {/* <li><Link href="#about" className="inline-block transition-all duration-300 hover:text-white hover:-translate-y-0.5">Case Studies</Link></li> */}
+                            {/* <li><Link href="#contact" className="inline-block transition-all duration-300 hover:text-white hover:-translate-y-0.5">Career</Link></li> */}
                         </ul>
                     </div>
 
