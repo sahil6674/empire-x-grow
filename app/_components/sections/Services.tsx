@@ -11,11 +11,11 @@ const Services = () => {
                 </div>
 
                 <div className='grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3'>
-                    <div id='videoShoot' className='group scroll-mt-28 flex flex-col gap-4 p-5 border rounded-lg border-blue-400 bg-black hover:border-amber-400 hover:-translate-y-1 transition-all duration-300'>
+                    <div id='videoShoot' className='group scroll-mt-28 flex flex-col gap-4 p-5 border rounded-lg border-amber-400 bg-black hover:border-blue-400 hover:-translate-y-1 transition-all duration-300'>
                         <Clapperboard className='size-10 text-gray-500 group-hover:text-white' />
-                        <h2 className='text-xl font-semibold text-blue-400 group-hover:text-amber-400'>Cinematic Shoots</h2>
+                        <h2 className='text-xl font-semibold text-amber-400 group-hover:text-blue-400'>Cinematic Shoots</h2>
                         <h6 className='text-sm text-gray-400'>From the first idea to the final delivery, we shoot brand films, product videos, event coverage and testimonials that look professional and hold your audience’s attention.</h6>
-                        <ul className='space-y-1.5 text-sm list-disc text-gray-300 marker:text-blue-400 group-hover:marker:text-amber-400 group-hover:text-white ml-3'>
+                        <ul className='space-y-1.5 text-sm list-disc text-gray-300 marker:text-amber-400 group-hover:marker:text-blue-400 group-hover:text-white ml-3'>
                             <li>Concept & Scripting</li>
                             <li>Studio & On-Location Shoots</li>
                             <li>Professional camera & Lighting</li>
@@ -23,7 +23,7 @@ const Services = () => {
                             <li>Editing & Color grading</li>
                         </ul>
                         <Link href='#contact'>
-                            <button className='text-start text-sm font-semibold text-blue-400 mt-3 transition-all duration-300 hover:cursor-pointer group-hover:text-amber-400 hover:translate-x-1'>Enquire Now ➜</button>
+                            <button className='text-start text-sm font-semibold text-amber-400 mt-3 transition-all duration-300 hover:cursor-pointer group-hover:text-blue-400 hover:translate-x-1'>Enquire Now ➜</button>
                         </Link>
                     </div>
 
@@ -43,18 +43,18 @@ const Services = () => {
                         </Link>
                     </div>
 
-                    <div className='group flex flex-col gap-4 p-5 border rounded-lg border-blue-400 bg-black hover:border-amber-400 hover:-translate-y-1 transition-all duration-300'>
+                    <div className='group flex flex-col gap-4 p-5 border rounded-lg border-amber-400 bg-black hover:border-blue-400 hover:-translate-y-1 transition-all duration-300'>
                         <Video className='size-10 text-gray-500 group-hover:text-white' />
-                        <h2 className='text-xl font-semibold text-blue-400 group-hover:text-amber-400'>Video Editing</h2>
+                        <h2 className='text-xl font-semibold text-amber-400 group-hover:text-blue-400'>Video Editing</h2>
                         <h6 className='text-sm text-gray-400'>We turn raw footage into polished videos for reels, shorts, ads and films, with smooth cuts, clean sound and a style that suits your brand.</h6>
-                        <ul className='space-y-1.5 text-sm list-disc text-gray-300 marker:text-blue-400 group-hover:marker:text-amber-400 group-hover:text-white ml-3'>
+                        <ul className='space-y-1.5 text-sm list-disc text-gray-300 marker:text-amber-400 group-hover:marker:text-blue-400 group-hover:text-white ml-3'>
                             <li>Reels, Shorts & YouTube videos</li>
                             <li>Ad & Promo videos</li>
                             <li>Transitions & Motion graphics</li>
                             <li>Sound mixing & Color correction</li>
                         </ul>
                         <Link href='#contact'>
-                            <button className='text-start text-sm font-semibold text-blue-400 mt-3 transition-all duration-300 hover:cursor-pointer group-hover:text-amber-400 hover:translate-x-1'>Enquire Now ➜</button>
+                            <button className='text-start text-sm font-semibold text-amber-400 mt-3 transition-all duration-300 hover:cursor-pointer group-hover:text-blue-400 hover:translate-x-1'>Enquire Now ➜</button>
                         </Link>
                     </div>
 
@@ -73,18 +73,18 @@ const Services = () => {
                         </Link>
                     </div>
 
-                    <div className='group flex flex-col gap-4 p-5 border rounded-lg border-blue-400 bg-black hover:border-amber-400 hover:-translate-y-1 transition-all duration-300'>
+                    <div className='group flex flex-col gap-4 p-5 border rounded-lg border-amber-400 bg-black hover:border-blue-400 hover:-translate-y-1 transition-all duration-300'>
                         <Megaphone className='size-10 text-gray-500 group-hover:text-white' />
-                        <h2 className='text-xl font-semibold text-blue-400 group-hover:text-amber-400'>Google & Meta Ads</h2>
+                        <h2 className='text-xl font-semibold text-amber-400 group-hover:text-blue-400'>Google & Meta Ads</h2>
                         <h6 className='text-sm text-gray-400'>We run targeted ad campaigns on Google, Facebook and Instagram that put your business in front of the right people and bring you more leads and sales.</h6>
-                        <ul className='space-y-1.5 text-sm list-disc text-gray-300 marker:text-blue-400 group-hover:marker:text-amber-400 group-hover:text-white ml-3'>
+                        <ul className='space-y-1.5 text-sm list-disc text-gray-300 marker:text-amber-400 group-hover:marker:text-blue-400 group-hover:text-white ml-3'>
                             <li>Audience research & targeting</li>
                             <li>Ad creative & copywriting</li>
                             <li>Campaign setup & budget control</li>
                             <li>Performance tracking & optimization</li>
                         </ul>
                         <Link href='#contact'>
-                            <button className='text-start text-sm font-semibold text-blue-400 group-hover:text-amber-400 mt-3 transition-all duration-300 hover:cursor-pointer hover:translate-x-1'>Enquire Now ➜</button>
+                            <button className='text-start text-sm font-semibold text-amber-400 group-hover:text-blue-400 mt-3 transition-all duration-300 hover:cursor-pointer hover:translate-x-1'>Enquire Now ➜</button>
                         </Link>
                     </div>
 
