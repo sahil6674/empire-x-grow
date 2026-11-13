@@ -483,7 +483,7 @@ export default function Contact() {
                             {/* SUBMIT BUTTON */}
                             <button
                                 type="submit"
-                                className="group flex w-full items-center justify-center gap-3 rounded-xl bg-blue-600 px-6 py-4 font-semibold text-white shadow-lg shadow-blue-600/20 transition duration-300 hover:-translate-y-1 hover:bg-blue-500 hover:shadow-blue-500/30 active:translate-y-0"
+                                className="group flex w-full items-center justify-center gap-3 rounded-xl bg-blue-600 px-6 py-4 font-semibold text-white shadow-lg shadow-blue-600/20 transition duration-300 hover:-translate-y-1 hover:bg-blue-500 hover:shadow-blue-500/30 active:translate-y-0 cursor-pointer"
                             >
                                 <span>Send Enquiry</span>
 
@@ -616,11 +616,16 @@ export default function Contact() {
                             </h6>
                         </div>
 
-                        <p className="text-sm leading-7 text-gray-400">
-                            Have a project in mind or interested in joining
-                            our team? Get in touch with us and let&apos;s discuss
-                            how we can work together.
-                        </p>
+                        <div className="text-sm leading-7 text-gray-400">
+                            <div className="flex justify-between">
+                                <p>Mon - Sat</p>
+                                <p>Opens 9 A.M - 6 P.M</p>
+                            </div>
+                            <div className="flex justify-between">
+                                <p>Sunday</p>
+                                <p>Closed</p>
+                            </div>
+                        </div>
 
                         <div className="mt-5 border-t border-white/10 pt-4">
                             <p className="text-sm font-medium text-blue-400">
