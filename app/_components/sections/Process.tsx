@@ -27,10 +27,10 @@ const Process = () => {
                         </div>
                     </div>
 
-                    <div className='group flex items-start gap-3 border rounded-2xl border-amber-400 bg-[#121111] hover:border-blue-400 hover:-translate-y-1 transition-all duration-300 px-5 py-8'>
+                    <div className='group flex items-start gap-3 border rounded-2xl border-blue-400 bg-[#121111] hover:border-amber-400 hover:-translate-y-1 transition-all duration-300 px-5 py-8'>
                         <Clock className='size-8 shrink-0 text-gray-400 group-hover:text-white' />
                         <div className='flex flex-col gap-2'>
-                            <h5 className='text-lg font-semibold text-amber-400 group-hover:text-blue-400'>On-Time Delivery</h5>
+                            <h5 className='text-lg font-semibold text-blue-400 group-hover:text-amber-400'>On-Time Delivery</h5>
                             <h6 className='text-sm leading-5.5 text-gray-400 group-hover:text-white'>We agree on timelines before we start and stick to them, so your content, campaigns and website go live when planned.</h6>
                         </div>
                     </div>
@@ -43,10 +43,10 @@ const Process = () => {
                         </div>
                     </div>
 
-                    <div className='group flex items-start gap-3 border rounded-2xl border-amber-400 bg-[#121111] hover:border-blue-400 hover:-translate-y-1 transition-all duration-300 px-5 py-8'>
+                    <div className='group flex items-start gap-3 border rounded-2xl border-blue-400 bg-[#121111] hover:border-amber-400 hover:-translate-y-1 transition-all duration-300 px-5 py-8'>
                         <SquareCheck className='size-8 shrink-0 text-gray-400 group-hover:text-white' />
                         <div className='flex flex-col gap-2'>
-                            <h5 className='text-lg font-semibold text-amber-400 group-hover:text-blue-400'>Transparent & Accountable</h5>
+                            <h5 className='text-lg font-semibold text-blue-400 group-hover:text-amber-400'>Transparent & Accountable</h5>
                             <h6 className='text-sm leading-5.5 text-gray-400 group-hover:text-white'>Clear packages and clear communication. You know what you’re paying for and what you’ll get, with no hidden charges.</h6>
                         </div>
                     </div>
@@ -59,10 +59,10 @@ const Process = () => {
                         </div>
                     </div>
 
-                    <div className='group flex items-start gap-3 border rounded-2xl border-amber-400 bg-[#121111] hover:border-blue-400 hover:-translate-y-1 transition-all duration-300 px-5 py-8'>
+                    <div className='group flex items-start gap-3 border rounded-2xl border-blue-400 bg-[#121111] hover:border-amber-400 hover:-translate-y-1 transition-all duration-300 px-5 py-8'>
                         <ChartLine className='size-8 shrink-0 text-gray-400 group-hover:text-white' />
                         <div className='flex flex-col gap-2'>
-                            <h5 className='text-lg font-semibold text-amber-400 group-hover:text-blue-400'>Results You Can Measure</h5>
+                            <h5 className='text-lg font-semibold text-blue-400 group-hover:text-amber-400'>Results You Can Measure</h5>
                             <h6 className='text-sm leading-5.5 text-gray-400 group-hover:text-white'>We focus on what matters to your business: reach, leads and sales. We track how your ads and pages perform and keep improving them.</h6>
                         </div>
                     </div>
